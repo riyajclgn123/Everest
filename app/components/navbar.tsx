@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function Navbar() {
   return (
     <>
-      <div className=" bg-sky-400 w-auto h-20 m-2" >
+      <div className=" bg-slate-300 w-auto h-20 m-2" >
         <div className="flex flex-row">
           <Image width={80} height={10} src="/download.jpeg" alt ="logo" className="pl-4 h-24 pr-5 py-5"/>
           <div className="basis-1/7 text-black font-bold text-2xl py-10 pr-10">Home</div>
