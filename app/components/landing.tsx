@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import riyaj from "../assets/bg.jpg"
 export default function Landing() {
   return (
     <div className='m-2'>
@@ -14,7 +15,7 @@ export default function Landing() {
         }
       </div>
       <hr className="border-black p-4 m-8" />
-      <Image width={2000} height={200} src="/bg.jpg" alt ="logo " className="rounded-full w-96 h-80 my-10" />
+      <Image width={2000} height={200} src={riyaj} alt ="logo " className="rounded-full w-96 h-80 my-10" />
       <div className="pl-7">
         <ul className="list-disc list inside">
           <li className="text-green-600 my-2">Bishow</li>
