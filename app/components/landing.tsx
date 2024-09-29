@@ -1,22 +1,30 @@
+import React from 'react';
+import Image from 'next/image';
 export default function Landing() {
   return (
-    <div>
+    <div className='m-2'>
+      <div className="text-left py-4">
+        This is my first project using React and tailwind css. I am very happy
+        to learn with Anish Gyawali dai. Thanks for helping in every step of our
+        life.
+      </div>
+      <div className="text-right">
+        {
+          "Today, we are here to show our first step of using css. I used 'text-center' alignment to start my heading from the center of my page. And, I used 'text-right'alignment to start my first ltter of second paragraph from right side."
+        }
+      </div>
       <hr className="border-black p-4 m-8" />
+      <Image width={2000} height={200} src="/bg.jpg" alt ="logo " className="rounded-full w-96 h-80 my-10" />
       <div className="pl-7">
         <ul className="list-disc list inside">
-          <li className="text-green-600 my-2">Mayalu Bishow</li>
-          <li className="text-violet-400 my-3">Chasme Sudhakar</li>
-          <li className="text-orange-500 my-5">Fatah Sujit</li>
-          <li className="text-blue-500 my-9">Gymer Riyaj</li>
-          <li my-12>Vege Sagar</li>
+          <li className="text-green-600 my-2">Bishow</li>
+          <li className="text-violet-400 my-3">Sudhakar</li>
+          <li className="text-orange-500 my-5">FSujit</li>
+          <li className="text-blue-500 my-9">Riyaj</li>
+          <li my-12>Sagar</li>
         </ul>
       </div>
-      <div
-        className="flex justify-center flex-col"
-        style={{
-          border: "2px solid red",
-        }}
-      >
+      <div className="flex justify-center flex-col">
         <button className="bg-yellow-400 w-64 rounded-2xl py-2 px-4 border border-gray-950 my-3">
           I am a button
         </button>
